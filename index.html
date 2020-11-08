@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+<title>JS Quiz</title>
+
+<body>
+    
+    <div class="quizContainer container-fluid well well-lg">
+        <div id="home" class="text-center">
+			<h2></h2>
+			<h4 id="iTimeShow">Time Remaining: <span id='timer'></span></h4>
+            <h2>Javascript Quiz</h2>
+            <button type="button" id="startBtn" class="btn btn-info btn-lg">START</button>
+
+    </div>
+
+    <div class="container mt-5 d-none" id="quiz">
+        <div class="row justify-content-center mt-5 pt-3 pb-3">
+            <div class="col-10 col-lg-8" id="QA-block">
+                <h3 id="questions" class="mb-4">QUESTION</h3>
+                <ul id="answers-list" class="list-unstyled">
+                    <li class="answerOne"></li>
+                    <li class="answerTwo"></li>
+                    <li class="answerThree"></li>
+                    <li class="answerFour"></li>
+                </ul>
+                <p class="reponse"></p>
+            </div>
+        </div>
+    </div>
+
+</body> 
+</html>
